@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OAO",
+    "ACA",
+    "OAO"
+  ],
+  "key": {
+    "O": { "item": "minecraft:obsidian" },
+    "A": { "item": "minecraft:amethyst_shard" },
+    "C": { "item": "minecraft:heart_of_the_sea" }
+  },
+  "result": {
+    "item": "earthtitan:earth_titan_core",
+    "count": 1
+  }
+}

@@ -1,0 +1,70 @@
+#Enable low-volume debug messages for lifecycle events.
+debugLogging = false
+
+[growth]
+	#Blocks required before stage 1 is considered complete.
+	#Range: > 0
+	stage1RequiredBlocks = 0
+	#Blocks required to reach stage 2.
+	#Range: > 1
+	stage2RequiredBlocks = 1000
+	#Blocks required to reach stage 3.
+	#Range: > 2
+	stage3RequiredBlocks = 5000
+	#Blocks required to reach stage 4.
+	#Range: > 3
+	stage4RequiredBlocks = 15000
+	#Blocks required to reach stage 5.
+	#Range: > 4
+	stage5RequiredBlocks = 40000
+	#Blocks required to reach stage 6.
+	#Range: > 5
+	stage6RequiredBlocks = 100000
+
+[absorption]
+	#Maximum block absorption radius around the titan.
+	#Range: 4 ~ 64
+	absorptionRadius = 24
+	#Hard limit of blocks removed by one titan per tick.
+	#Range: 1 ~ 64
+	maxAbsorptionPerTick = 8
+	#Random block positions inspected per tick.
+	#Range: 16 ~ 512
+	maxAbsorptionAttemptsPerTick = 120
+	#Allow absorption of blocks with block entities. Disabled by default for safety.
+	absorbContainerBlocks = false
+
+[combat]
+	#Range: 5 ~ 600
+	attackCooldown = 45
+	#Range: 20 ~ 1200
+	grabCooldown = 180
+	#Range: 10 ~ 1200
+	shootCooldown = 70
+	#Range: 0.0 ~ 12.0
+	explosionPower = 4.0
+	#Multiplies configured stage health values.
+	#Range: 0.1 ~ 10.0
+	bossHealthMultiplier = 1.0
+	#Range: 4 ~ 512
+	maxActiveProjectiles = 64
+
+[world_safety]
+	#Allow limited natural terrain damage from titan attacks.
+	enableTerrainDamage = true
+	#Range: 0 ~ 256
+	maxBlocksDestroyedPerAttack = 24
+	#Range: 0 ~ 128
+	maxDebrisEntities = 32
+	#Range: 16 ~ 1000
+	maxParticlesPerTick = 160
+	#Range: 1 ~ 512
+	maxBlockChangesPerTick = 64
+	#Range: 1 ~ 512
+	maxAbsorptionTasks = 64
+	#Range: 2 ~ 16
+	bedrockScanRadius = 8
+	#Maximum loaded titans in one dimension, counted when a core is activated.
+	#Range: 1 ~ 16
+	maxTitanCount = 1
+

@@ -1,0 +1,141 @@
+[29сент.2026 18:08:50.629] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--nogui, --launchTarget, forgeserveruserdev, --gameDir, ., --fml.forgeVersion, 47.3.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --nogui]
+[29сент.2026 18:08:50.635] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20.1 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[29сент.2026 18:08:50.760] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file D:\JustMyWorkSpace\EarthTitan\run\config\fml.toml is not correct. Correcting
+[29сент.2026 18:08:50.761] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[29сент.2026 18:08:50.762] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[29сент.2026 18:08:50.762] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[29сент.2026 18:08:50.779] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserveruserdev
+[29сент.2026 18:08:50.852] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/user/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=SERVER
+[29сент.2026 18:08:51.174] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.5\4c589c051ef533f8898fb5d83514d4186faa0eeb\javafmllanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[29сент.2026 18:08:51.177] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.5\8251eee89645828a05f3b04f5df8945baa0743c4\lowcodelanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[29сент.2026 18:08:51.180] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.5\53971d6fe08ae7ce74a72fa7d14a82de70a8bd1\mclanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[29сент.2026 18:08:51.185] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\user\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.5\cc377ceca3274bd1e429c0da17f73720ce29a4d6\fmlcore-1.20.1-47.3.5.jar is missing mods.toml file
+[29сент.2026 18:08:51.261] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[29сент.2026 18:08:52.554] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, ., --nogui, --nogui]
+[29сент.2026 18:08:58.351] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.5, for MC 1.20.1 with MCP 20230612.114412
+[29сент.2026 18:08:58.354] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.5 Initialized
+[29сент.2026 18:08:58.456] [modloading-worker-0/INFO] [com.earthtitan.EarthTitanMod/]: Earth Titan is awakening
+[29сент.2026 18:08:58.869] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\JustMyWorkSpace\EarthTitan\run\config\earthtitan-common.toml is not correct. Correcting
+[29сент.2026 18:08:58.871] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key growth was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29сент.2026 18:08:58.871] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key growth.stage1RequiredBlocks was corrected from null to its default, 0. 
+[29сент.2026 18:08:58.871] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key growth.stage2RequiredBlocks was corrected from null to its default, 1000. 
+[29сент.2026 18:08:58.871] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key growth.stage3RequiredBlocks was corrected from null to its default, 5000. 
+[29сент.2026 18:08:58.871] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key growth.stage4RequiredBlocks was corrected from null to its default, 15000. 
+[29сент.2026 18:08:58.872] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key growth.stage5RequiredBlocks was corrected from null to its default, 40000. 
+[29сент.2026 18:08:58.872] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key growth.stage6RequiredBlocks was corrected from null to its default, 100000. 
+[29сент.2026 18:08:58.872] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key absorption was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29сент.2026 18:08:58.872] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key absorption.absorptionRadius was corrected from null to its default, 24. 
+[29сент.2026 18:08:58.873] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key absorption.maxAbsorptionPerTick was corrected from null to its default, 8. 
+[29сент.2026 18:08:58.873] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key absorption.maxAbsorptionAttemptsPerTick was corrected from null to its default, 120. 
+[29сент.2026 18:08:58.873] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key absorption.absorbContainerBlocks was corrected from null to its default, false. 
+[29сент.2026 18:08:58.873] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key combat was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29сент.2026 18:08:58.874] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key combat.attackCooldown was corrected from null to its default, 45. 
+[29сент.2026 18:08:58.874] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key combat.grabCooldown was corrected from null to its default, 180. 
+[29сент.2026 18:08:58.874] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key combat.shootCooldown was corrected from null to its default, 70. 
+[29сент.2026 18:08:58.874] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key combat.explosionPower was corrected from null to its default, 4.0. 
+[29сент.2026 18:08:58.874] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key combat.bossHealthMultiplier was corrected from null to its default, 1.0. 
+[29сент.2026 18:08:58.874] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key combat.maxActiveProjectiles was corrected from null to its default, 64. 
+[29сент.2026 18:08:58.875] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world_safety was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29сент.2026 18:08:58.875] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world_safety.enableTerrainDamage was corrected from null to its default, true. 
+[29сент.2026 18:08:58.875] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world_safety.maxBlocksDestroyedPerAttack was corrected from null to its default, 24. 
+[29сент.2026 18:08:58.875] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world_safety.maxDebrisEntities was corrected from null to its default, 32. 
+[29сент.2026 18:08:58.876] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world_safety.maxParticlesPerTick was corrected from null to its default, 160. 
+[29сент.2026 18:08:58.876] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world_safety.maxBlockChangesPerTick was corrected from null to its default, 64. 
+[29сент.2026 18:08:58.876] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world_safety.maxAbsorptionTasks was corrected from null to its default, 64. 
+[29сент.2026 18:08:58.876] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world_safety.bedrockScanRadius was corrected from null to its default, 8. 
+[29сент.2026 18:08:58.876] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world_safety.maxTitanCount was corrected from null to its default, 1. 
+[29сент.2026 18:08:58.877] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debugLogging was corrected from null to its default, false. 
+[29сент.2026 18:08:59.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29сент.2026 18:08:59.521] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.5 Target: 47.4.10
+[29сент.2026 18:08:59.814] [main/ERROR] [net.minecraft.server.dedicated.Settings/]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422) ~[?:?]
+	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
+	at net.minecraft.server.dedicated.Settings.loadFromFile(Settings.java:36) ~[forge-1.20.1-47.3.5_mapped_official_1.20.1.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.fromFile(DedicatedServerProperties.java:137) ~[forge-1.20.1-47.3.5_mapped_official_1.20.1.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:12) ~[forge-1.20.1-47.3.5_mapped_official_1.20.1.jar:?]
+	at net.minecraft.server.Main.main(Main.java:126) ~[forge-1.20.1-47.3.5_mapped_official_1.20.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.5.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.5.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeServerUserdevLaunchHandler.devService(ForgeServerUserdevLaunchHandler.java:16) ~[fmlloader-1.20.1-47.3.5.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.3.5.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[29сент.2026 18:08:59.851] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29сент.2026 18:09:00.022] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.5_mapped_official_1.20.1/forge-1.20.1-47.3.5_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[29сент.2026 18:09:00.022] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.5_mapped_official_1.20.1/forge-1.20.1-47.3.5_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[29сент.2026 18:09:01.805] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[29сент.2026 18:09:01.907] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[29сент.2026 18:09:02.362] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[29сент.2026 18:09:02.362] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29сент.2026 18:09:02.362] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29сент.2026 18:09:02.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29сент.2026 18:09:02.477] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29сент.2026 18:09:02.489] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[29сент.2026 18:09:02.670] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\forge-server.toml is not correct. Correcting
+[29сент.2026 18:09:02.671] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29сент.2026 18:09:02.672] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[29сент.2026 18:09:02.672] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[29сент.2026 18:09:02.672] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[29сент.2026 18:09:02.673] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[29сент.2026 18:09:02.673] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[29сент.2026 18:09:02.673] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[29сент.2026 18:09:02.674] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[29сент.2026 18:09:02.712] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29сент.2026 18:09:08.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29сент.2026 18:09:08.700] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29сент.2026 18:09:08.701] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29сент.2026 18:09:09.091] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29сент.2026 18:09:09.588] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29сент.2026 18:09:10.090] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[29сент.2026 18:09:10.676] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29сент.2026 18:09:11.088] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[29сент.2026 18:09:11.586] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[29сент.2026 18:09:12.087] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[29сент.2026 18:09:12.586] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[29сент.2026 18:09:13.086] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[29сент.2026 18:09:13.591] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[29сент.2026 18:09:14.109] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[29сент.2026 18:09:14.584] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[29сент.2026 18:09:15.082] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[29сент.2026 18:09:15.583] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
+[29сент.2026 18:09:16.082] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[29сент.2026 18:09:16.581] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[29сент.2026 18:09:17.082] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[29сент.2026 18:09:17.581] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[29сент.2026 18:09:18.102] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[29сент.2026 18:09:18.581] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[29сент.2026 18:09:19.087] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[29сент.2026 18:09:19.583] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[29сент.2026 18:09:20.087] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[29сент.2026 18:09:20.580] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[29сент.2026 18:09:21.102] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[29сент.2026 18:09:21.583] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[29сент.2026 18:09:22.098] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[29сент.2026 18:09:22.581] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[29сент.2026 18:09:23.086] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[29сент.2026 18:09:23.615] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[29сент.2026 18:09:24.089] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[29сент.2026 18:09:24.590] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[29сент.2026 18:09:25.082] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[29сент.2026 18:09:25.607] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
+[29сент.2026 18:09:25.645] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 17565 ms
+[29сент.2026 18:09:25.646] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (22.980s)! For help, type "help"
+[29сент.2026 18:09:25.658] [Server thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [earthtitan]
+[29сент.2026 18:09:25.662] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler

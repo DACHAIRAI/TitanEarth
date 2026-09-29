@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "earthtitan:block/earth_titan_core"
+    }
+  }
+}

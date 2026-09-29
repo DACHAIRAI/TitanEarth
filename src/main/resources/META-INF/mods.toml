@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+showAsResourcePack=false
+
+[[mods]]
+modId="earthtitan"
+version="${file.jarVersion}"
+displayName="Earth Titan"
+logoFile="earthtitan_logo.png"
+credits="Created for Minecraft Forge 1.20.1"
+authors="Earth Titan Team"
+description='''A living earth colossus that awakens from a crafted core, grows by absorbing the land, and can be defeated by bedrock.'''
+
+[[dependencies.earthtitan]]
+modId="forge"
+mandatory=true
+versionRange="[47.3,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.earthtitan]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
